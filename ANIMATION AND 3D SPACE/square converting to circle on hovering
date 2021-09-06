@@ -1,1 +1,33 @@
+*******************************************************HTML*********************
 
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="square converting to circle.css">
+</head>
+<body>
+	<div></div>
+
+</body>
+</html>
+
+***************************CSS**********************************
+
+div{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color: aquamarine;
+	transition: 1s ease-in-out;
+	
+}
+div:hover{
+	
+	transform:scale(3.8) translate(200px) rotate(360deg);
+	border-radius: 50%;
+
+}
